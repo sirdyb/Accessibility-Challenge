@@ -22,14 +22,6 @@
     display: block;
     left: 100%;
 }
-/*
-.drop-container > .drop-link:hover > .drop-content {
-    left: 0%;
-}
-
-.drop-container *:hover .drop-content:first-child {
-    left: 0%;
-}*/
 
 .drop-container * {
     list-style-type: none;
