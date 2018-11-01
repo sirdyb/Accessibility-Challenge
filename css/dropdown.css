@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.drop-container, .drop-link {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.drop-content {
+    position: absolute;
+    display: none;
+    background: deepskyblue;
+    width: 100%;
+    z-index: 1;
+}
+
+.drop-link:hover > .drop-content {
+    display: block;
+    left: 100%;
+}
+
+.drop-container > .drop-link:hover > .drop-content {
+    left: 0%;
+}
+
+.drop-container * {
+    list-style-type: none;
+    text-decoration: none;
+}
