@@ -1,0 +1,52 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+:root {
+    --main-color: yellow;
+    --secondary-color: red;
+    --tertiary-color: green;
+    --quaternary-color: deepskyblue;
+}
+    
+
+#logocontainer>h1 {
+  font-size: 2.5em;
+  padding: 0.5em;
+  box-shadow: 1px 1px 4px;
+  letter-spacing: 0.08em;
+}
+
+nav {
+  text-align: center;
+
+}
+
+#logocontainer {
+  border-bottom: 1px solid black;
+  background-color: #ff6900;
+  color: #003636;
+  margin: 0;
+}
+
+nav>a {
+  padding:0.5em;
+  font-weight: bold;
+  marign-left: auto;
+  margin-right: auto;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-bottom: 1px solid black;
+  color: #003636;
+}
+
+nav>a:hover {
+  background-color: #f28539;
+}
