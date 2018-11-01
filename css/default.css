@@ -7,6 +7,14 @@
         background: transparent;
     }
 
+:root {
+    --main-color: yellow;
+    --secondary-color: red;
+    --tertiary-color: green;
+    --quaternary-color: deepskyblue;
+}
+    
+
 #logocontainer>h1 {
   font-size: 2.5em;
   padding: 0.5em;
@@ -41,11 +49,4 @@ nav>a {
 
 nav>a:hover {
   background-color: #f28539;
-
-
-:root {
-    --main-color: yellow;
-    --secondary-color: red;
-    --tertiary-color: green;
-    --quaternary-color: deepskyblue;
 }
